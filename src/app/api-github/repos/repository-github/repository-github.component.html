@@ -1,0 +1,25 @@
+<div class="container mt-5">
+  <div class="row" id="div-dados-repository">
+    <div class="col-md-12 col-lg-12 col-sm-12">
+      <div class="col-12" id="div-relacao-repositorio">
+        <label><strong>RELAÇÃO DE REPOSITÓRIO</strong></label>
+      </div>
+      <hr>
+      <div class="col-md-12 col-lg-12 col-sm-12" *ngFor="let item  of listaRepository">
+        <li>
+          <div id="div-url-repository" class="col-md-12 col-lg-12 col-sm-12">
+            <div>
+              <span><strong> URL: </strong></span><span><a href="">{{item.url}}</a></span>
+            </div>
+          </div>
+          <div id="div-total-curtidas" class="col-md-3 col-lg-3 col-sm-3">
+            <div>
+              <span><strong> Curtidas: </strong></span><span>{{item.stargazers_count}}</span>
+              <span><strong> Linguagem: </strong></span><span>{{item.language}}</span>
+            </div>
+          </div>
+        </li>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+#div-dados-repository{
+  margin-left: 150px;
+  display: inline-block;
+  position: absolute;
+}
+
+#div-total-curtidas{
+  width: 1050px;
+
+}
+#div-url-repository{
+  width: 1050px;
+}
+
+#div-relacao-repositorio{
+    color: blue;
+}
+
+li{
+
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+hr{
+  width: 800px;
+}
+
